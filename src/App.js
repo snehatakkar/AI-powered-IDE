@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { Editor } from "@monaco-editor/react";
 import axios from "axios";
 
+const BACKEND_URL = "https://ai-powered-ide-backend-0oih.onrender.com";  // ✅ Use correct backend URL
+
 function App() {
   const [code, setCode] = useState("# Type your Python code...");
   const [syntaxCheck, setSyntaxCheck] = useState("");
@@ -10,16 +12,18 @@ function App() {
   const handleEditorChange = (newCode) => {
     setCode(newCode);
 
-    // ✅ Send code to FastAPI for syntax checking & AI suggestion
-    axios.post("https://ai-powered-ide-backend-0oih.onrender.com//analyze-code", { code: newCode })
-      .then((response) => {
-        console.log("✅ API Response:", response.data);
-        setSyntaxCheck(response.data.syntax_check);
-        setAiSuggestions(response.data.ai_suggestions);
-      })
-      .catch((error) => {
-        console.error("❌ API Request Failed:", error);
-      });
+    // ✅ Ensure a POST request is sent
+    axios.post(`${BACKEND_URL}/analyze-code`, { code: newCode }, { 
+      headers: { "Content-Type": "application/json" }  // ✅ Set correct headers
+    })
+    .then((response) => {
+      console.log("✅ API Response:", response.data);
+      setSyntaxCheck(response.data.syntax_check);
+      setAiSuggestions(response.data.ai_suggestions);
+    })
+    .catch((error) => {
+      console.error("❌ API Request Failed:", error);
+    });
   };
 
   return (
@@ -28,7 +32,6 @@ function App() {
       <Editor
         height="400px"
         defaultLanguage="python"
-        theme="vs-dark"
         value={code}
         onChange={handleEditorChange}
       />
