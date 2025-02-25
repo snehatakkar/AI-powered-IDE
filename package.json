@@ -1,6 +1,7 @@
 {
   "name": "ai-ide-frontend",
   "version": "0.1.0",
+  "homepage": "https://snehatakkar.github.io/AI-powered-IDE",
   "private": true,
   "dependencies": {
     "@monaco-editor/react": "^4.7.0",
@@ -44,7 +45,5 @@
   },
   "devDependencies": {
     "gh-pages": "^6.3.0"
-  },
-  "homepage": "https://github.com/snehatakkar/AI-powered-IDE"
-  
+  }
 }
