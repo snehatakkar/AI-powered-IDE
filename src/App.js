@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Editor } from "@monaco-editor/react";
 import axios from "axios";
 
-const BACKEND_URL = "https://ai-powered-ide-backend-0oih.onrender.com";  // ✅ Use correct backend URL
+const BACKEND_URL = "https://ai-powered-ide-backend-0oih.onrender.com";  // ✅ Ensure correct backend URL
 
 function App() {
   const [code, setCode] = useState("# Type your Python code...");
@@ -14,7 +14,7 @@ function App() {
 
     // ✅ Ensure a POST request is sent
     axios.post(`${BACKEND_URL}/analyze-code`, { code: newCode }, { 
-      headers: { "Content-Type": "application/json" }  // ✅ Set correct headers
+      headers: { "Content-Type": "application/json" }  // ✅ Ensure correct headers
     })
     .then((response) => {
       console.log("✅ API Response:", response.data);
