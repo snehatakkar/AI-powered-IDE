@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/snehatakkar/AI-powered-IDE/static/css/main.e6c13ad2.css",
-    "main.js": "/snehatakkar/AI-powered-IDE/static/js/main.d6626291.js",
-    "static/js/453.73850f6c.chunk.js": "/snehatakkar/AI-powered-IDE/static/js/453.73850f6c.chunk.js",
-    "index.html": "/snehatakkar/AI-powered-IDE/index.html",
-    "main.e6c13ad2.css.map": "/snehatakkar/AI-powered-IDE/static/css/main.e6c13ad2.css.map",
-    "main.d6626291.js.map": "/snehatakkar/AI-powered-IDE/static/js/main.d6626291.js.map",
-    "453.73850f6c.chunk.js.map": "/snehatakkar/AI-powered-IDE/static/js/453.73850f6c.chunk.js.map"
+    "main.css": "/AI-powered-IDE/static/css/main.e6c13ad2.css",
+    "main.js": "/AI-powered-IDE/static/js/main.22369979.js",
+    "static/js/453.73850f6c.chunk.js": "/AI-powered-IDE/static/js/453.73850f6c.chunk.js",
+    "index.html": "/AI-powered-IDE/index.html",
+    "main.e6c13ad2.css.map": "/AI-powered-IDE/static/css/main.e6c13ad2.css.map",
+    "main.22369979.js.map": "/AI-powered-IDE/static/js/main.22369979.js.map",
+    "453.73850f6c.chunk.js.map": "/AI-powered-IDE/static/js/453.73850f6c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.d6626291.js"
+    "static/js/main.22369979.js"
   ]
 }
