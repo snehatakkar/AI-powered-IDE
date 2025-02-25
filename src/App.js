@@ -11,7 +11,7 @@ function App() {
     setCode(newCode);
 
     // ✅ Send code to FastAPI for syntax checking & AI suggestion
-    axios.post("http://127.0.0.1:8000/analyze-code", { code: newCode })
+    axios.post("https://ai-powered-ide-backend-0oih.onrender.com//analyze-code", { code: newCode })
       .then((response) => {
         console.log("✅ API Response:", response.data);
         setSyntaxCheck(response.data.syntax_check);
