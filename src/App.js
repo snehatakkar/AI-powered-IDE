@@ -28,6 +28,7 @@ function App() {
       <Editor
         height="400px"
         defaultLanguage="python"
+        theme="vs-dark"
         value={code}
         onChange={handleEditorChange}
       />
