@@ -1,74 +1,66 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+🚀 Intelligent IDE with AI-Powered Code Analysis
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is an AI-powered Intelligent IDE that provides real-time code analysis, bug detection, and AI-generated suggestions for improvement.The backend is built with FastAPI and deployed on Render, while the frontend is developed using React.js and hosted on GitHub Pages.
 
-## Available Scripts
+🔥 Features
 
-In the project directory, you can run:
+✅ Real-time syntax error detection.
+✅ AI-powered code suggestions using Hugging Face models.
+✅ FastAPI backend for handling API requests.
+✅ React.js frontend for an interactive user experience.
 
-### `npm start`
+🛠 Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Frontend (React.js)
+React.js (JavaScript)
+Axios (for API calls)
+GitHub Pages (Deployment)
+Backend (FastAPI)
+FastAPI (Python)
+Uvicorn (ASGI server)
+Hugging Face Transformers (AI Model)
+Render (Deployment)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+🚀 Project Setup
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1️⃣ Clone the Repository
+git clone https://github.com/snehatakkar/AI-powered-IDE.git
+cd AI-powered-IDE
 
-### `npm run build`
+2️⃣ Setup the Backend (FastAPI)
+cd AI-powered-IDE.backend
+python -m venv venv
+source venv/bin/activate  # (Linux/macOS) OR venv\Scripts\activate (Windows)
+pip install -r requirements.txt
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3️⃣ Run the Backend
+python -m uvicorn main:app --reload
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4️⃣ Setup the Frontend (React.js)
+cd ../AI-powered-IDE
+npm install
+npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+🌍 Deployment
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Backend Deployed on Render
+Frontend Deployed on GitHub Pages
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+🔄 Usage
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Open the frontend URL.
+Enter Python code in the editor.
+View AI suggestions and syntax errors for improvements.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+🎯 Future Improvements
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+🛠 Add support for more programming languages.
+🚀 Improve AI model response time.
+🔍 Implement real-time collaboration.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# AI-powered-IDE
->>>>>>> 4e62ea0f97474803f14df24ae04cf8d90012d068
+💻 Developed by: Sneha
+🌟 GitHub: https://github.com/snehatakkar
