@@ -62,5 +62,5 @@ View AI suggestions and syntax errors for improvements.
 🚀 Improve AI model response time.
 🔍 Implement real-time collaboration.
 
-💻 Developed by: Sneha
+💻 Developed by: Sneha Takkar
 🌟 GitHub: https://github.com/snehatakkar
